@@ -1,0 +1,47 @@
+.smallItem{
+
+    position: relative;
+
+    top:0px;
+    left:0px;
+
+    width:500px;
+    height:100px;
+
+    margin:0;
+    margin-bottom:5px;
+    
+    padding:0;
+    
+    background-color: rgb(0, 225, 255);
+   
+    color:black;
+
+    border: 2px;
+    border-style:solid;
+    border-color:#ce0505;
+    
+    user-select: none;
+}
+.smallItem > img {
+    cursor: pointer;
+}
+
+.smallItem > p{
+    position: absolute;
+    top:20px;
+    left:120px;
+    width:350px;
+    height:55px;
+    
+    /*background-color: white;*/
+}
+
+.smallItem > h1{
+    position: absolute;
+
+    top:0px;
+    left:120px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
